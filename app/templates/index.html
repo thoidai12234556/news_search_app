@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tìm kiếm tin tức</title>
+    <!-- <link rel="stylesheet" href="../static/styles.css" /> -->
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='../static/styles.css') }}"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Tìm kiếm tin tức</h1>
+      <input type="text" id="search-box" placeholder="Nhập từ khóa..." />
+      <button onclick="searchNews()">Tìm kiếm</button>
+
+      <div id="search-time"></div>
+      <ul id="results"></ul>
+    </div>
+
+    <script src="{{ url_for('static', filename='../static/script.js') }}"></script>
+    <!-- <link rel="stylesheet" href="../static/script.js" /> -->
+  </body>
+</html>

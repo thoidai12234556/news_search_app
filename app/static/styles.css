@@ -1,0 +1,21 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+
+#results {
+  list-style-type: none;
+  padding: 0;
+}
+
+#results li {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+#results h2 {
+  margin-top: 0;
+}
